@@ -86,9 +86,9 @@ npm run server3
 
 Modifica tu servidor para que ahora, en función de la URL que acceda el usuario. devuelva un **fichero HTML** u otro:
 
-1. Si el usuario introduce la URL 'http://localhost:3000/nacktschnecke', debemos devolver el fichero HTML ubicado en server-3-files/nacktschnecke.html
+1. Si el usuario introduce la URL 'http://localhost:3000/nacktschnecke', debemos devolver el fichero HTML ubicado en server3-files/nacktschnecke.html
 
-2. Si el usuario introduce la URL 'http://localhost:3000/about', debemos devolver el fichero HTML ubicado en server-3-files/about.html
+2. Si el usuario introduce la URL 'http://localhost:3000/about', debemos devolver el fichero HTML ubicado en server3-files/about.html
 
 3. En cualquier otro caso, debemos devolver este texto **404. Resource not found**. Además, utiliza el código HTTP adecuado para contestar al navegador Web. Comprueba que tu código de error aparece de manera explcíta en la respuesta, explorando la pestaña "Network" de tus herramientas de desarrollador del navegador.
 
