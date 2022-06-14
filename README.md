@@ -36,7 +36,7 @@ Crea un script en el package.json para ejecutar server1:
 
 ```
 scripts: {
-    server1: "nodemon server1.js"
+    "server1": "nodemon server1.js"
 }
 ```
 
