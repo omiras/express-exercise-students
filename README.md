@@ -18,17 +18,19 @@ Comprueba que en el fichero __package.json__ se ha instalado la dependencia __ex
 
 ## Server 1
 
-1. Crea un nuevo servidor. Cuando el usuario navuegue a "http://localhost:3000", debe devolver el siguiente texto 
+Crea un nuevo servidor. Cuando el usuario navuegue a "http://localhost:3000", debe devolver el siguiente texto 
 
+```
 <h1>El servidor funciona correctamente</h1>
 <p>Aquí iría el contenido del mensaje</p> 
+```
 
 **No** debes utilizar el método __write__ de NodeJS. En su lugar, usa una única vez el método __send__ de Express en el objeto __res__ para enviar una respuesta al cliente.
 
 
 **Pregunta:** ¿has necesitado indicar el tipo de codificación de los carácteres en la respuesta? ¿Y el tipo de datos devuelto?
 
-3. Instala nodemon:
+### Instala nodemon:
 
 A pesar que en nuestro ordenador tenemos instalado nodemon de forma global, podemos usar el flag --save-dev para instalar nodemon como dependencia de desarrollo. 
 
