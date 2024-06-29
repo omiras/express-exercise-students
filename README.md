@@ -1,6 +1,6 @@
 # Ejercicios Express
 
-En este ejercicio vamos a crear _pequeños servidores_ Express para practicar NPM y el propio framework Express
+En este ejercicio vamos a crear _pequeños servidores_ Express para practicar NPM y el propio framework Express. Es decir tienes que crear cada uno de los ficheros nombre : server1.js, server2.js, etc.
 
 Recuerda tener a mano los ejemplos de clase aunque aquí tienes también una [lista de ejemplos de uso](https://www.digitalocean.com/community/tutorials/nodejs-express-basics) de las diferentes funcionalidades de Express 
 
