@@ -61,7 +61,7 @@ Crea un nuevo script en package.json para desarrollar el server2.js. A partir de
 De esta manera, deberías ser capaz de ejecutar
 
 ```
-npm run server2.js
+npm run server2
 ```
 
 Haz que __nodemon__ se encargue de recargar el servidor si el fichero server2.js sufre modificaciones.
