@@ -152,9 +152,9 @@ Crea una nueva entrada en la sección de scripts de package.json que te permita 
 npm run server6
 ```
 
-Este servidor tiene ya implementado un endpoint, concretamente, al directorio raiz. Cuando el cliente hace un GET a '/formulario' obtenemos un formulario simple.
+Este servidor tiene ya implementado un endpoint. Cuando el cliente hace un GET a '/formulario' obtenemos un formulario simple.
 
-1. Fíjate que la página HTML que devuelve el servidor pide , que no es capaz de encontrar. Dichos estilos estan ubicados en la carpeta __server-6-static-files__ de nuestro servidor. Modifica el server6.js de tal manera que un cliente pueda hacer peticiones a dicha carpeta para obtener recursos; de tal manera que cuando accedamos a http://localhost:3000/formulario, se carguen los estilos de dicho HTML correctamente. Nota: el formulario está BIEN, no hay que modificar el HTML.
+1. Fíjate que la página HTML que devuelve el servidor pide un fichero CSS  que no es capaz de encontrar. Dichos estilos estan ubicados en la carpeta __server-6-static-files__ de nuestro servidor. Modifica el server6.js de tal manera que un cliente pueda hacer peticiones a dicha carpeta para obtener recursos; de tal manera que cuando accedamos a http://localhost:3000/formulario, se carguen los estilos de dicho HTML correctamente. Nota: el formulario está BIEN, no hay que modificar el HTML.
 
 [Pista](https://developer.mozilla.org/es/docs/Learn/Server-side/Express_Nodejs/Introduction#sirviendo_archivos_est%C3%A1ticos)
 
