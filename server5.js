@@ -1,4 +1,7 @@
 const express = require('express');
+
+// hemos instalado este módulo de terceros
+// https://www.npmjs.com/package/is-palindrome
 const isPalindrome = require('is-palindrome');
 
 
