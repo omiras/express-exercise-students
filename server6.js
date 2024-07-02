@@ -15,7 +15,7 @@ app.get('/formulario', (req, res) => {
     <link rel="stylesheet" href="/estilos.css">
     </head>
     <body>
-    <form class="form" method="POST" action="/">
+    <form class="form" method="POST" action="/formulario">
     <label for="name" class="label-name">Name</label>
     <input type="text" id="name" name="name" maxlength="40" class="field field-name" />
   
@@ -34,7 +34,7 @@ app.get('/formulario', (req, res) => {
 
 app.post('/formulario', (req, res) => {
   const { name, email, message } = req.body;
-  const newInscription = `${name},${email},${message}`;
+  const newInscription = `${name},${email},${message}\n`;
 
   // nueva entrada en el fichero CSV
   fs.appendFileSync('./inscritos.csv', newInscription);
