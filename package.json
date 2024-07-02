@@ -9,7 +9,8 @@
     "server2": "nodemon server2.js",
     "server3": "nodemon server3.js",
     "server4": "nodemon server4.js",
-    "server5": "nodemon server5.js"
+    "server5": "nodemon server5.js",
+    "server6": "nodemon server6.js"
   },
   "repository": {
     "type": "git",

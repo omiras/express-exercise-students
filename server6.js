@@ -1,9 +1,15 @@
 const express = require('express')
+const fs = require('fs');
+
 
 const app = express()
+app.use(express.static('./server-6-static-files'));
+
+// Poder parsear las peticiones de tipo POST que vienen de un formulario
+app.use(express.urlencoded({ extended: true }));
 
 app.get('/formulario', (req, res) => {
-    res.status(200).send(`
+  res.status(200).send(`
     <html>
     <head>
     <link rel="stylesheet" href="/estilos.css">
@@ -26,9 +32,21 @@ app.get('/formulario', (req, res) => {
   `)
 })
 
+app.post('/formulario', (req, res) => {
+  const { name, email, message } = req.body;
+  const newInscription = `${name},${email},${message}`;
+
+  // nueva entrada en el fichero CSV
+  fs.appendFileSync('./inscritos.csv', newInscription);
+
+  //respondemos al cliente
+  res.send('Mensaje enviado correctamente.');
+
+});
+
 app.use((req, res) => {
-    res.status(404).send('Recurso no encontrado...')
-  })
+  res.status(404).send('Recurso no encontrado...')
+})
 
 app.listen(3000)
-  
+
