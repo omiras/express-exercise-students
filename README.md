@@ -158,7 +158,7 @@ Este servidor tiene ya implementado un endpoint, concretamente, al directorio ra
 
 2. Implemente un endpoint que caputre un POST al endpoint '/formulario'; y que simplemente se encargue de retornar un mensaje con el texto "Usuario inscrito correctamente"
 
-3. Queremos guardar los datos del inscrito en el fichero inscritos.csv para su posterior procesado. 
+3. Queremos guardar los datos del inscrito en el [fichero inscritos.csv](https://www.youtube.com/watch?v=UofTplCVkYI) para su posterior procesado. 
 
 ## BONUS FINAL
 
