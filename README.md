@@ -156,7 +156,7 @@ Este servidor tiene ya implementado un endpoint, concretamente, al directorio ra
 
 [Pista](https://developer.mozilla.org/es/docs/Learn/Server-side/Express_Nodejs/Introduction#sirviendo_archivos_est%C3%A1ticos)
 
-2. Implemente un endpoint que caputre un POST al endpoint '/formulario'; y que simplemente se encargue de retornar un mensaje con el texto "Usuario inscrito correctamente"
+2. Implemente un endpoint que caputre un POST al endpoint '/formulario'; y que simplemente se encargue de retornar un mensaje con el texto "Usuario inscrito correctamente". Es posible que tengas que modificar algún atributo del formulario para que este haga la petición POST al endpoint adecuado
 
 3. Queremos guardar los datos del inscrito en el fichero inscritos.csv para su posterior procesado. 
 
