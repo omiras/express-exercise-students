@@ -115,7 +115,7 @@ npm run server3b
 
 El Dr Zariguella necesita un servidor para poder acceder a los expedientes de sus pacientes. Actualmente disponemos de un endpoint en "/" en el que obtenemos un enlace al expediente de cada paciente
 
-Crea un [endpoint dinámico](https://sourcebae.com/blog/how-dynamic-routing-works-in-express-js/) para que al hacer clic en cada uno de los pacientes, el cliente reciba un PDF con el expediente.
+Crea un [endpoint dinámico](https://sourcebae.com/blog/how-dynamic-routing-works-in-express-js/) con la ruta `/patient/:idPatient` para que al hacer clic en cada uno de los pacientes, el cliente reciba un PDF con el expediente.
 
 Solamente debes modificar **server3b.js**. Adjuntamos un [vídeo con el resultado esperado](https://oscarm.tinytake.com/df/1763d2a/thumbnail?type=attachments&version_no=0&file_version_no=0&thumbnail_size=preview)
 
