@@ -89,7 +89,7 @@ Crea una nueva entrada en la sección de scripts de package.json que te permita 
 npm run server3
 ```
 
-Modifica tu servidor para que ahora, en función de la URL que acceda el usuario. devuelva un **fichero HTML** u otro:
+Crea tu servidor para que ahora, en función de la URL que acceda el usuario. devuelva un **fichero HTML** u otro:
 
 1. Si el usuario introduce la URL 'http://localhost:3000/team', debemos devolver el fichero HTML ubicado en server3-files/team.html
 
@@ -103,6 +103,22 @@ Modifica tu servidor para que ahora, en función de la URL que acceda el usuario
 [Uso de sendFile](https://www.digitalocean.com/community/tutorials/use-expressjs-to-deliver-html-files)
 
 </details>
+
+## Server 3b
+
+Crea una nueva entrada en la sección de scripts de package.json que te permita ejecutar: 
+
+
+```
+npm run server3b
+```
+
+El Dr Zariguella necesita un servidor para poder acceder a los expedientes de sus pacientes. Actualmente disponemos de un endpoint en "/" en el que obtenemos un enlace al expediente de cada paciente
+
+Crea un [endpoint dinámico](https://sourcebae.com/blog/how-dynamic-routing-works-in-express-js/) para que al hacer clic en cada uno de los pacientes, el cliente reciba un PDF con el expediente.
+
+Solamente debes modificar **server3b.js**
+
 
 ## Server 4
 Crea una nueva entrada en la sección de scripts de package.json que te permita ejecutar: 
